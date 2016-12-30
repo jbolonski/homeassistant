@@ -1,0 +1,9 @@
+alias: Jason Home alert
+trigger:
+  platform: state
+  entity_id: device_tracker.jasonsphone
+  state: 'home'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Jason has arrived home"

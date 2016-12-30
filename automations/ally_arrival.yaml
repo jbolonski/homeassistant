@@ -1,0 +1,9 @@
+alias: Ally Home alert
+trigger:
+  platform: state
+  entity_id: device_tracker.allysiphone
+  state: 'home'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Ally has arrived home"

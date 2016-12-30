@@ -1,0 +1,11 @@
+secrets.yaml
+home-assistant.log
+home-asssitant_v2.db
+known_devices.yaml
+OZW_Log.txt
+*.xml
+*.sqlite
+.uuid
+.well-known
+.HA_VERSION
+deps/

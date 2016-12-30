@@ -1,0 +1,9 @@
+alias: Basement Motion On
+trigger:
+  platform: state
+  entity_id: binary_sensor.ecolink_pir_motion_sensor_sensor_3_0
+  state: 'on'
+action:
+  service: switch.turn_on
+  entity_id: switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0
+

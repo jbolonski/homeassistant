@@ -1,0 +1,9 @@
+alias: Jill Home alert
+trigger:
+  platform: state
+  entity_id: device_tracker.jillsiphone6s
+  state: 'home'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Jill has arrived home"
