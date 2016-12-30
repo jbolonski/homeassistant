@@ -1,4 +1,0 @@
-#platform: icloud
-#username: !secret icloud_username_ally
-#password: !secret icloud_password_ally
-#account_name: Ally iCloud
