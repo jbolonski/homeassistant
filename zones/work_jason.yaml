@@ -1,0 +1,5 @@
+name: Work
+latitude: !secret location_lat_work
+longitude: !secret location_lon_work
+radius: 300
+icon: mdi:account-multiple
