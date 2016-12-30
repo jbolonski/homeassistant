@@ -1,4 +1,5 @@
 alias: Ally Home alert
+initial_state: False
 trigger:
   platform: state
   entity_id: device_tracker.allysiphone
