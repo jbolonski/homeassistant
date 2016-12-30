@@ -40,3 +40,23 @@ sensor.ecolink_pir_motion_sensor_sourcenodeid_3_2:
 
 light.a19_w_60_01:
   friendly_name: TV Light
+
+
+sensor.yr_temperature:
+  friendly_name: Temperature
+
+sensor.yr_cloudiness:
+  friendly_name: Cloudiness
+
+sensor.yr_fog:
+  friendly_name: Fog
+
+sensor.yr_wind_speed:
+  friendly_name: Wind
+
+sensor.yr_precipitation:
+  friendly_name: Precipitation
+
+sensor.yr_symbol:
+  friendly_name: symbol
+
