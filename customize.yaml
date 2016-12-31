@@ -18,12 +18,25 @@ device_tracker.jillsiphone6s:
 
 
 
+###########################################
+#
+# Switches
+#
+###########################################
+
 switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
   friendly_name: Basement Stairs Outlet
 
+
+
+###########################################
+#
+# Sensors
+#
+###########################################
+
 binary_sensor.ecolink_pir_motion_sensor_sensor_3_0:
   friendly_name: Basement Motion
-
 
 sensor.ecolink_pir_motion_sensor_alarm_level_3_1:
   hidden: true
@@ -36,11 +49,6 @@ sensor.ecolink_pir_motion_sensor_burglar_3_10:
 
 sensor.ecolink_pir_motion_sensor_sourcenodeid_3_2:
   hidden: true
-
-
-light.a19_w_60_01:
-  friendly_name: TV Light
-
 
 sensor.yr_temperature:
   friendly_name: Temperature
@@ -60,3 +68,24 @@ sensor.yr_precipitation:
 sensor.yr_symbol:
   friendly_name: symbol
 
+
+
+###########################################
+#
+# Locks
+#
+###########################################
+
+lock.schlage_be469nxcen_touchscreen_deadbolt_locked_4_0:
+  friendly_name: Side Door Lock
+
+
+
+###########################################
+#
+# Lights
+#
+###########################################
+
+light.a19_w_60_01:
+  friendly_name: TV Light
