@@ -25,7 +25,7 @@ device_tracker.jillsiphone6s:
 ###########################################
 
 switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
-  friendly_name: Basement Stairs Outlet
+  friendly_name: Door Outlet
 
 
 
@@ -36,7 +36,7 @@ switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
 ###########################################
 
 binary_sensor.ecolink_pir_motion_sensor_sensor_3_0:
-  friendly_name: Basement Motion
+  friendly_name: Motion Sensor 1
 
 sensor.ecolink_pir_motion_sensor_alarm_level_3_1:
   hidden: true
