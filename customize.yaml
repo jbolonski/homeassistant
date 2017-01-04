@@ -32,43 +32,18 @@ switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
 
 ###########################################
 #
-# Sensors
+# Weather
 #
 ###########################################
 
-binary_sensor.ecolink_pir_motion_sensor_sensor_3_0:
-  friendly_name: Motion Sensor 1
-
-sensor.ecolink_pir_motion_sensor_alarm_level_3_1:
-  hidden: true
-
-sensor.ecolink_pir_motion_sensor_alarm_type_3_0:
-  hidden: true
-
-sensor.ecolink_pir_motion_sensor_burglar_3_10:
-  hidden: true
-
-sensor.ecolink_pir_motion_sensor_sourcenodeid_3_2:
-  hidden: true
-
-sensor.yr_temperature:
+sensor.dark_sky_temperature:
   friendly_name: Temperature
 
-sensor.yr_cloudiness:
-  friendly_name: Cloudiness
+sensor.dark_sky_wind_speed:
+  friendly_name: Wind Speed
 
-sensor.yr_fog:
-  friendly_name: Fog
-
-sensor.yr_wind_speed:
-  friendly_name: Wind
-
-sensor.yr_precipitation:
-  friendly_name: Precipitation
-
-sensor.yr_symbol:
-  friendly_name: symbol
-
+sensor.dark_sky_cloud_coverage:
+  friendly_name: Clouds
 
 
 ###########################################

@@ -1,0 +1,4 @@
+climate:
+  name: Climate
+  entities:
+    - climate.thermostat
