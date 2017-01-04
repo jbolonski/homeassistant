@@ -4,9 +4,10 @@
 #
 ###########################################
 
-device_tracker.jasonsphone:
+device_tracker.jason_galaxy:
   friendly_name: Jason
   icon: mdi:human-male
+
 
 device_tracker.allysiphone:
   friendly_name: Ally

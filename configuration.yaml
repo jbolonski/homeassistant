@@ -95,11 +95,17 @@ group: !include_dir_merge_named groups
 zone: !include_dir_list zones
 automation: !include_dir_list automations
 sensor: !include_dir_merge_list sensors
+binary_sensor: !include_dir_merge_list binary_sensors
 device_tracker: !include_dir_list trackers
 switch: !include_dir_list switches
 alexa: !include alexa.yaml
+camera: !include_dir_list cameras
 ###########################
 
 zwave:
   usb_path: /dev/zwave
 #  config_path: /srv/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-armv7l.egg/config
+
+#octoprint:
+#  host: !secret octoprint_ip
+#  api_key: !secret octoprint_key

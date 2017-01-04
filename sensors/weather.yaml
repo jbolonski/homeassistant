@@ -1,8 +1,0 @@
-- platform: yr
-  monitored_conditions:
-    - temperature
-    - symbol
-    - precipitation
-    - windSpeed
-    - fog
-    - cloudiness
