@@ -1,0 +1,4 @@
+sunset_lights:
+  name: Sunset Lights
+  entities:
+    - switch.window_light

@@ -1,0 +1,8 @@
+alias: Sunset Lighting
+trigger:
+  platform: sun
+  event: sunset
+  offset: "-00:45:00"
+action:
+  service: homeassistant.turn_on
+  entity_id: group.sunset_lights

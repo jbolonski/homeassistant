@@ -1,0 +1,4 @@
+playroom_lights:
+  name: Playroom Lights
+  entities:
+    - switch.window_light
