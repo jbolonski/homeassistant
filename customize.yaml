@@ -26,7 +26,8 @@ device_tracker.jillsiphone6s:
 ###########################################
 
 switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
-  friendly_name: Door Outlet
+  friendly_name: Floor Lamp
+  icon: mdi:lamp
 
 
 

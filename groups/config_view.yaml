@@ -1,0 +1,10 @@
+config_view:
+  name: Config
+  view: yes
+  entities:
+    - automation.garage_motion
+    - automation.ally_home_alert
+    - automation.jason_home_alert
+    - automation.jill_home_alert
+    - automation.sunset_lighting
+    - automation.turn_off_lights

@@ -1,0 +1,9 @@
+alias: Garage Motion
+trigger:
+  platform: state
+  entity_id: binary_sensor.ecolink_pir_motion_sensor_sensor_3_0
+  state: 'on'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Garage Motion Detected"

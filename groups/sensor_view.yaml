@@ -1,0 +1,5 @@
+sensor_view:
+  name: Sensors
+  view: yes
+  entities:
+    - binary_sensor.ecolink_pir_motion_sensor_sensor_3_0

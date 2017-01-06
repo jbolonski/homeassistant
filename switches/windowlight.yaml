@@ -1,3 +1,4 @@
 platform: tplink
 host: !secret ip_tplink_1
 name: Window Light
+icon: mdi:lamp
