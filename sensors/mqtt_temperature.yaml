@@ -1,0 +1,4 @@
+- platform: mqtt
+  name: Basement Temperature
+  state_topic: "sensors/arduino1/temp"
+  unit_of_measurement: '°F'

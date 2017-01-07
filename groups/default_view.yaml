@@ -5,3 +5,4 @@ default_view:
     - group.lights
     - group.climate
     - group.weather
+    - sensor.basement_temperature

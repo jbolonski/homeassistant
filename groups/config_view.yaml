@@ -7,4 +7,5 @@ config_view:
     - automation.jason_home_alert
     - automation.jill_home_alert
     - automation.sunset_lighting
+    - automation.bedtime
     - automation.turn_off_lights
