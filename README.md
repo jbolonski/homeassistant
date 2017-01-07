@@ -24,6 +24,7 @@ https://home-assistant.io/
 
 * Ecolink Z-Wave PIR Motion Detector, Pet Immune (PIRZWAVE2-ECO)
 * Octoprint
+* MQTT
 
 ## Binary Sensors
 
