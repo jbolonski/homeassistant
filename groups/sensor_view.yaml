@@ -3,3 +3,9 @@ sensor_view:
   view: yes
   entities:
     - binary_sensor.ecolink_pir_motion_sensor_sensor_3_0
+    - sun.sun
+    - sensor.dark_sky_cloud_coverage
+    - sensor.dark_sky_humidity
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_wind_speed
