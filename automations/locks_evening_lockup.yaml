@@ -1,0 +1,7 @@
+alias: Evening Lockup
+trigger:
+  platform: time
+  after: '21:30'
+action:
+  service: lock.lock
+  entity_id: group.all_locks

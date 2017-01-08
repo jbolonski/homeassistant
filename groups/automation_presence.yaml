@@ -1,0 +1,6 @@
+automation_presence:
+  name: Presence Automation
+  entities:
+    - automation.ally_home_alert
+    - automation.jason_home_alert
+    - automation.jill_home_alert

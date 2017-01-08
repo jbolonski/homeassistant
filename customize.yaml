@@ -53,7 +53,7 @@ sensor.dark_sky_cloud_coverage:
 #
 ###########################################
 
-lock.schlage_be469nxcen_touchscreen_deadbolt_locked_4_0:
+lock.schlage_be469nxcen_touchscreen_deadbolt_locked_5_0:
   friendly_name: Side Door Lock
 
 

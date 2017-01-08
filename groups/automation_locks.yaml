@@ -1,0 +1,5 @@
+automation_locks:
+  name: Lock Automation
+  entities:
+    - automation.evening_lockup
+    - automation.morning_lockup

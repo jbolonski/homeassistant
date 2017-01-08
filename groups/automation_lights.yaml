@@ -1,0 +1,6 @@
+automation_lights:
+  name: Light Automation
+  entities:
+    - automation.sunset_lighting
+    - automation.bedtime
+    - automation.turn_off_lights
