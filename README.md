@@ -38,3 +38,7 @@ https://home-assistant.io/
 ## Cameras
 
 * Octoprint mjpeg streamer
+
+## Locks
+
+* Schlage BE469NXCEN Touchscreen
