@@ -1,7 +1,7 @@
 alias: Jill Home alert
 trigger:
   platform: state
-  entity_id: device_tracker.jillsiphone6s
+  entity_id: device_tracker.jill_iphone
   state: 'home'
 action:
   service: notify.pushovernotification

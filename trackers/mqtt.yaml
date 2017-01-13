@@ -1,3 +1,5 @@
 platform: mqtt
 devices:
-  jasonsphone: owntracks/hass/galaxy
+  jason_galaxy: owntracks/jason/galaxy
+  jill_iphone: owntracks/jill/iphone
+  ally_iphone: owntracks/ally/iphone

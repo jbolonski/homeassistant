@@ -1,0 +1,5 @@
+name: Parents
+latitude: !secret location_lat_parents
+longitude: !secret location_lon_parents
+radius: 300
+icon: mdi:account-multiple

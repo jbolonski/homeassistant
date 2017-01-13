@@ -1,7 +1,7 @@
 alias: Jason Home alert
 trigger:
   platform: state
-  entity_id: device_tracker.jasonsphone
+  entity_id: device_tracker.jason_galaxy
   state: 'home'
 action:
   service: notify.pushovernotification

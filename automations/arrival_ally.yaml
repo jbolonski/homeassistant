@@ -2,7 +2,7 @@ alias: Ally Home alert
 initial_state: False
 trigger:
   platform: state
-  entity_id: device_tracker.allysiphone
+  entity_id: device_tracker.ally_iphone
   state: 'home'
 action:
   service: notify.pushovernotification

@@ -9,11 +9,11 @@ device_tracker.jason_galaxy:
   icon: mdi:human-male
 
 
-device_tracker.allysiphone:
+device_tracker.ally_iphone:
   friendly_name: Ally
   icon: mdi:human-female
 
-device_tracker.jillsiphone6s:
+device_tracker.jill_iphone:
   friendly_name: Jill
   icon: mdi:human-female
 
