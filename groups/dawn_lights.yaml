@@ -1,0 +1,4 @@
+dawn_lights:
+  name: Dawn Lights
+  entities:
+    - switch.window_light

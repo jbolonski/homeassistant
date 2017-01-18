@@ -1,5 +1,5 @@
 name: Home
 latitude: !secret location_lat
 longitude: !secret location_lon
-radius: 50
+radius: 200
 icon: mdi:account-multiple

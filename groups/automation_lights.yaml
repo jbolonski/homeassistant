@@ -1,6 +1,7 @@
 automation_lights:
   name: Light Automation
   entities:
+    - automation.dawn_lights_on
+    - automation.dawn_lights_off
     - automation.sunset_lighting
     - automation.bedtime
-    - automation.turn_off_lights

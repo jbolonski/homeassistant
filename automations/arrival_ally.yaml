@@ -1,9 +1,9 @@
 alias: Ally Home alert
-initial_state: False
 trigger:
-  platform: state
+  platform: zone
   entity_id: device_tracker.ally_iphone
-  state: 'home'
+  zone: zone.home
+  event: enter
 action:
   service: notify.pushovernotification
   data:
