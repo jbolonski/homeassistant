@@ -109,3 +109,11 @@ zwave:
 #octoprint:
 #  host: !secret octoprint_ip
 #  api_key: !secret octoprint_key
+
+
+
+#logger:
+#  default: debug
+#  logs:
+#    homeassistant.components.climate: debug
+
