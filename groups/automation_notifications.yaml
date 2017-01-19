@@ -1,0 +1,5 @@
+automation_notification:
+  name: Notification Automation
+  entities:
+    - automation.med_reminder
+    - automation.hass_startup

@@ -6,3 +6,4 @@ config_view:
     - group.automation_lights
     - group.automation_locks
     - group.automation_presence
+    - group.automation_notification
