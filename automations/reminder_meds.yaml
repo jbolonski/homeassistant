@@ -1,7 +1,11 @@
 alias: Med Reminder
 trigger:
-  platform: time
-  after: '20:00'
+  - platform: time
+    after: '8:00'
+  - platform: time
+    after: '15:00'
+  - platform: time
+    after: '21:00'
 action:
   service: ifttt.trigger
   data: {"event":"notify_x1", "value1":"Time for Ally's Meds"}
