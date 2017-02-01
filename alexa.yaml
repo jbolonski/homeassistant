@@ -27,3 +27,12 @@ intents:
       type: simple
       title: Sample title
       content: Some more content
+
+  ActivateSceneIntent:
+    action:
+      service: scene.turn_on
+      data_template:
+        entity_id: scene.{{ Scene | replace(" ", "_") }}
+    speech:
+      type: plaintext
+      text: OK

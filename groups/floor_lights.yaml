@@ -1,7 +1,5 @@
-lights:
-  name: Lights
+tvroom_floor_lights:
+  name: TV Room Floor Lights
   entities:
-    - light.a19_w_60_01
     - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0
     - switch.leviton_dzpa11lw_plugin_appliance_module_switch_6_0
-    - switch.window_light

@@ -1,0 +1,9 @@
+- name: Watch Movie
+  entities:
+    switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
+      state: off
+    switch.leviton_dzpa11lw_plugin_appliance_module_switch_6_0:
+      state: off
+    light.a19_w_60_01:
+      state: on
+      brightness: 10
