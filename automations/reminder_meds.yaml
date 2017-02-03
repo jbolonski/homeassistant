@@ -3,8 +3,6 @@ trigger:
   - platform: time
     after: '8:00'
   - platform: time
-    after: '15:00'
-  - platform: time
     after: '21:00'
 action:
   service: ifttt.trigger
