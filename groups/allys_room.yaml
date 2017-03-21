@@ -1,0 +1,4 @@
+allys_room::
+  name: Ally's Room
+  entities:
+    - light.allys_light

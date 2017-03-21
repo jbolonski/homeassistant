@@ -1,0 +1,7 @@
+room_view:
+  name: Rooms
+  view: yes
+  entities:
+    - group.allys_room
+    - group.emmas_room
+    - group.tv_room

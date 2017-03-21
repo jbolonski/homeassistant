@@ -1,0 +1,10 @@
+platform: limitlessled
+bridges:
+  - host: !secret ip_limitlessled
+    groups:
+    - number: 1
+      type: rgbww
+      name: Ally's Light
+    - number: 2
+      name: Emma's Light
+      type: rgbww
