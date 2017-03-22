@@ -37,6 +37,9 @@ https://home-assistant.io/
 * Leviton DZPA1-1BW
 * TP-Link Wi-Fi Smart Plug HS100
 
+## Switches
+* Broadlink RM Switch
+
 ## Cameras
 
 * Octoprint mjpeg streamer
