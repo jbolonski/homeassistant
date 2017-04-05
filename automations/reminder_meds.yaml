@@ -3,7 +3,7 @@ trigger:
   - platform: time
     after: '7:15'
   - platform: time
-    after: '21:00'
+    after: '19:30'
 action:
   service: ifttt.trigger
   data: {"event":"notify_x1", "value1":"Time for Ally's Meds"}
