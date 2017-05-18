@@ -36,6 +36,7 @@ https://home-assistant.io/
 
 * Leviton DZPA1-1BW
 * TP-Link Wi-Fi Smart Plug HS100
+* Wemo Mini Smart Plug 
 
 ## Switches
 * Broadlink RM Switch
