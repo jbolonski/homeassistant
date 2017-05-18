@@ -1,4 +1,4 @@
 - platform: mqtt
-  name: Sunroom Temperature
+  name: Garage Temperature
   state_topic: "sensors/arduino1/temp"
   unit_of_measurement: '°F'

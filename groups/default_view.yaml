@@ -6,5 +6,5 @@ default_view:
     - group.climate
     - group.tvroom_floor_lights
     - group.weather
-    - sensor.sunroom_temperature
+    - sensor.garage_temperature
     - lock.schlage_be469nxcen_touchscreen_deadbolt_locked_5_0
