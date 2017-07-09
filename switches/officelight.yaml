@@ -1,0 +1,4 @@
+platform: tplink
+host: !secret ip_tplink_2
+name: Office Light
+icon: mdi:lamp
