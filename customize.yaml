@@ -33,6 +33,10 @@ switch.leviton_dzpa11lw_plugin_appliance_module_switch_6_0:
   friendly_name: Floor Lamp 2
   icon: mdi:lamp
 
+switch.office_light:
+  friendly_name: Office Light
+  icon: mdi:lamp
+
 ###########################################
 #
 # Weather
