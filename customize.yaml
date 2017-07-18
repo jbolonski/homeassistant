@@ -73,3 +73,19 @@ lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
 
 light.a19_w_60_01:
   friendly_name: TV Light
+
+
+###########################################
+#
+# Groups
+#
+###########################################
+
+group.allys_room:
+  emulated_hue: true
+
+group.emmas_room:
+  emulated_hue: true
+
+group.tvroom_lights:
+  emulated_hue: true

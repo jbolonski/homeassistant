@@ -91,7 +91,6 @@ emulated_hue:
     - light
     - switch
 
-
 #light:
 #  - platform: osramlightify
 #    host: !secret ip_osram
