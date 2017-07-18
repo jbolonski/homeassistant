@@ -2,7 +2,7 @@ tv_room:
   name: TV Room
   entities:
     - light.a19_w_60_01
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch_6_0
+    - switch.leviton_dzpa11lw_plugin_appliance_module_switch
+    - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2
     - switch.fireplace
     - switch.television

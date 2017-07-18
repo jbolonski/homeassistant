@@ -25,11 +25,11 @@ device_tracker.jill_iphone:
 #
 ###########################################
 
-switch.leviton_dzpa11lw_plugin_appliance_module_switch_2_0:
+switch.leviton_dzpa11lw_plugin_appliance_module_switch:
   friendly_name: Floor Lamp 1
   icon: mdi:lamp
 
-switch.leviton_dzpa11lw_plugin_appliance_module_switch_6_0:
+switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
   friendly_name: Floor Lamp 2
   icon: mdi:lamp
 
@@ -59,7 +59,7 @@ sensor.dark_sky_cloud_coverage:
 #
 ###########################################
 
-lock.schlage_be469nxcen_touchscreen_deadbolt_locked_5_0:
+lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
   friendly_name: Side Door Lock
 
 

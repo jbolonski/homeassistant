@@ -1,7 +1,7 @@
 alias: Bedtime
 trigger:
   platform: time
-  after: '23:45'
+  at: '23:45'
 action:
   service: homeassistant.turn_off
   entity_id: switch.window_light

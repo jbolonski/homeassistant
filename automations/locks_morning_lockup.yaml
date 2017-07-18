@@ -1,7 +1,7 @@
 alias: Morning Lockup
 trigger:
   platform: time
-  after: '9:00'
+  at: '9:00'
 action:
   service: lock.lock
   entity_id: group.all_locks

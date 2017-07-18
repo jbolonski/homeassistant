@@ -7,4 +7,4 @@ default_view:
     - group.tvroom_floor_lights
     - group.weather
     - sensor.garage_temperature
-    - lock.schlage_be469nxcen_touchscreen_deadbolt_locked_5_0
+    - lock.schlage_be469nxcen_touchscreen_deadbolt_locked
