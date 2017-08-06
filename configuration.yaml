@@ -84,7 +84,6 @@ notify:
 
 # Enable support for Alexa
 emulated_hue:
-  type: alexa
   host_ip: !secret ip_local
   expose_by_default: true
   exposed_domains:
