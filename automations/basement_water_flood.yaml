@@ -4,6 +4,8 @@ trigger:
   entity_id: binary_sensor.aeotec_water_sensor
   to: 'on'
 action:
-  service: notify.pushovernotification
-  data:
-    message: "Basement Water Flood Detected"
+  - service: notify.pushovernotification
+    data:
+      message: "Basement Water Flood Detected"
+  - service: ifttt.trigger
+    data: {"event":"notify_x1", "value1":"Basement Water Flood Detected!"}
