@@ -27,6 +27,13 @@ https://home-assistant.io/
 * Ecolink Z-Wave PIR Motion Detector, Pet Immune (PIRZWAVE2-ECO)
 * Octoprint
 * MQTT
+* Aeotec Water Sensor, Z-Wave Flood & Leak Sensor
+   * Needed to use OZWCP to set 'Report Type to Send' to 17 instead of the default of 256
+   * In order to successfully set 'Report Type to Send'
+      * Pull Battery
+      * Replace Battery
+      * Press Zwave Button
+      * Click "Submit" in OZWCP
 
 ## Binary Sensors
 

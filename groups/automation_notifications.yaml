@@ -3,3 +3,4 @@ automation_notification:
   entities:
     - automation.med_reminder
     - automation.hass_startup
+    - automation.basement_flood

@@ -1,0 +1,9 @@
+alias: Basement Flood
+trigger:
+  platform: state
+  entity_id: binary_sensor.aeotec_water_sensor
+  to: 'on'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Basement Water Flood Detected"

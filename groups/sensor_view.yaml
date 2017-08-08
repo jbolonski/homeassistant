@@ -9,3 +9,4 @@ sensor_view:
     - sensor.dark_sky_icon
     - sensor.dark_sky_temperature
     - sensor.dark_sky_wind_speed
+    - binary_sensor.aeotec_water_sensor
