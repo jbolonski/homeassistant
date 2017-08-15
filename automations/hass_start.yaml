@@ -1,7 +1,7 @@
 alias: Hass Startup
 trigger:
-  platform: event
-  event_type: homeassistant_start
+  platform: homeassistant
+  event: start
 action:
   service: ifttt.trigger
   data: {"event":"notify_x1", "value1":"Home Assistant has Started"}
