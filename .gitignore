@@ -3,6 +3,7 @@ home-assistant.log
 home-assistant_v2.db
 known_devices.yaml
 OZW_Log.txt
+emulated_hue_ids.json
 *.xml
 *.sqlite
 .uuid

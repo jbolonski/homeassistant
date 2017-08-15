@@ -117,7 +117,6 @@ zwave:
   config_path: /srv/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-armv7l.egg/config
 
 
-
 #logger:
 #  default: debug
 #  logs:

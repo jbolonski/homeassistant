@@ -2,3 +2,4 @@ basement_office:
   name: Office
   entities:
     - switch.office_light
+    - switch.office_filter

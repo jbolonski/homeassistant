@@ -1,0 +1,11 @@
+alias: Run Office Filter
+trigger:
+  platform: time
+  minutes: '/240'
+  seconds: 00
+action:
+  - service: homeassistant.turn_on
+    entity_id: switch.office_filter
+  - delay: 0:30
+  - service: homeassistant.turn_off
+    entity_id: switch.office_filter

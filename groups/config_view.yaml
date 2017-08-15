@@ -7,3 +7,4 @@ config_view:
     - group.automation_locks
     - group.automation_presence
     - group.automation_notification
+    - automation.run_office_filter
