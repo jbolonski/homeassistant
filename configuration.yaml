@@ -115,7 +115,7 @@ light: !include_dir_list lights
 zwave:
   usb_path: /dev/zwave
   config_path: /srv/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-armv7l.egg/config
-
+  debug: true
 
 #logger:
 #  default: debug
