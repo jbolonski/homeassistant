@@ -97,6 +97,8 @@ emulated_hue:
 ifttt:
   key: !secret ifttt_key
 
+alexa:
+
 #########################
 # INCLUDES
 group: !include_dir_merge_named groups
@@ -106,7 +108,7 @@ sensor: !include_dir_merge_list sensors
 binary_sensor: !include_dir_merge_list binary_sensors
 device_tracker: !include_dir_list trackers
 switch: !include_dir_list switches
-alexa: !include alexa.yaml
+intent_script: !include intents.yaml
 camera: !include_dir_list cameras
 scene: !include_dir_merge_list scenes
 light: !include_dir_list lights
@@ -115,7 +117,6 @@ light: !include_dir_list lights
 zwave:
   usb_path: /dev/zwave
   config_path: /srv/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-armv7l.egg/config
-  debug: true
 
 #logger:
 #  default: debug
