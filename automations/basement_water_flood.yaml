@@ -1,7 +1,7 @@
 alias: Basement Flood
 trigger:
   platform: state
-  entity_id: binary_sensor.aeotec_water_sensor
+  entity_id: binary_sensor.aeotec_dsb45_water_sensor_sensor
   to: 'on'
 action:
   - service: notify.pushovernotification

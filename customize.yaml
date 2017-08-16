@@ -4,7 +4,7 @@
 #
 ###########################################
 
-device_tracker.jason_galaxy:
+group.jason:
   friendly_name: Jason
   icon: mdi:human-male
 
