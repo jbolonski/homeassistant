@@ -9,15 +9,15 @@ group.jason:
   icon: mdi:human-male
 
 
-device_tracker.ally_iphone:
+group.ally:
   friendly_name: Ally
   icon: mdi:human-female
 
-device_tracker.jill_iphone:
+group.jill:
   friendly_name: Jill
   icon: mdi:human-female
 
-device_tracker.jillsiphone:
+group.emma:
   friendly_name: Emma
   icon: mdi:human-female
 
@@ -65,7 +65,6 @@ sensor.dark_sky_cloud_coverage:
 
 lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
   friendly_name: Side Door Lock
-
 
 
 ###########################################

@@ -2,10 +2,10 @@ WhereAreWeIntent:
   speech:
     type: plain
     text: >
-        Jason is {% if is_state('device_tracker.jasonphone', 'not_home') %}away{% else %}at home{% endif %}.
-        Jill is {% if is_state('device_tracker.jillsiphone6s', 'not_home') %}away{% else %}at home{% endif %}.
-        Allyson is {% if is_state('device_tracker.allysiphone', 'not_home') %}away{% else %}at home{% endif %}.
-        Emma is {% if is_state('device_tracker.iphone', 'not_home') %}away{% else %}at home{% endif %}.
+        Jason is {% if is_state('group.jason', 'not_home') %}away{% else %}at home{% endif %}.
+        Jill is {% if is_state('group.jill', 'not_home') %}away{% else %}at home{% endif %}.
+        Allyson is {% if is_state('group.ally', 'not_home') %}away{% else %}at home{% endif %}.
+        Emma is {% if is_state('group.emma', 'not_home') %}away{% else %}at home{% endif %}.
 
 LocateIntent:
   action:
