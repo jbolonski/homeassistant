@@ -3,5 +3,5 @@ family:
   entities:
     - device_tracker.jill_iphone
     - device_tracker.ally_iphone
-    - device_tracker.jillsiphone
+    - device_tracker.emmasiphone
     - group.jason
