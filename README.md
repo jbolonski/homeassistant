@@ -55,3 +55,6 @@ https://home-assistant.io/
 ## Locks
 
 * Schlage BE469NXCEN Touchscreen
+	* If this stops working the zwcfg_###.xml might have gotten messed up.
+	* If the lock works from ozwcp but not hass then compare the diff between the zwcfg_###.xml from the ozwcp directory and the file from the hass .home directory
+
