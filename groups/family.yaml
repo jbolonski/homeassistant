@@ -1,5 +1,7 @@
 family:
+  name: Family
   entities:
     - device_tracker.jill_iphone
     - device_tracker.ally_iphone
-    - device_tracker.jason_galaxy
+    - device_tracker.jillsiphone
+    - group.jason

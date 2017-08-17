@@ -5,7 +5,7 @@ WhereAreWeIntent:
         Jason is {% if is_state('device_tracker.jasonphone', 'not_home') %}away{% else %}at home{% endif %}.
         Jill is {% if is_state('device_tracker.jillsiphone6s', 'not_home') %}away{% else %}at home{% endif %}.
         Allyson is {% if is_state('device_tracker.allysiphone', 'not_home') %}away{% else %}at home{% endif %}.
-        and Emma is busy being awesome
+        Emma is {% if is_state('device_tracker.iphone', 'not_home') %}away{% else %}at home{% endif %}.
 
 LocateIntent:
   action:

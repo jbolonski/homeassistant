@@ -17,6 +17,9 @@ device_tracker.jill_iphone:
   friendly_name: Jill
   icon: mdi:human-female
 
+device_tracker.jillsiphone:
+  friendly_name: Emma
+  icon: mdi:human-female
 
 
 ###########################################
