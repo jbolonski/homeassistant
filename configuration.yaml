@@ -7,10 +7,6 @@ homeassistant:
   time_zone: America/New_York
   customize: !include customize.yaml
 
-
-# Enables the frontend
-frontend:
-
 http:
   api_password: !secret http_api_password
   base_url: !secret http_base_url
@@ -114,6 +110,8 @@ scene: !include_dir_merge_list scenes
 light: !include_dir_list lights
 ###########################
 
+
+
 zwave:
   usb_path: /dev/zwave
   config_path: /srv/hass/lib/python3.5/site-packages/libopenzwave-0.3.1-py3.5-linux-armv7l.egg/config
@@ -123,3 +121,10 @@ zwave:
 #  logs:
 #    homeassistant.components.climate: debug
 
+##########################
+# Enable Front UI
+##########################
+frontend:
+  themes: !include_dir_merge_named themes
+#    testtheme:
+#      primary-color: blue
