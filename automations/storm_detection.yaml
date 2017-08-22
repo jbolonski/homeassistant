@@ -7,5 +7,5 @@ action:
   - service: ifttt.trigger
     data: {"event":"notify_x1", "value1":"Storms within 50 miles"}
   - service: notify.pushovernotification
-      data:
-        message: "Storms within 50 miles"
+    data:
+      message: "Storms within 50 miles"
