@@ -11,3 +11,5 @@
     - apparent_temperature
     - icon
     - cloud_cover
+    - nearest_storm_distance
+
