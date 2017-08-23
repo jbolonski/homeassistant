@@ -2,10 +2,10 @@ alias: Storm Detection Immediate
 trigger:
   platform: numeric_state
   entity_id: sensor.dark_sky_nearest_storm_distance
-  below: 5
+  below: 2
 action:
   - service: ifttt.trigger
-    data: {"event":"notify_x1", "value1":"Storms within 5 miles"}
+    data: {"event":"notify_x1", "value1":"Storms within 2 miles"}
   - service: notify.pushovernotification
     data:
-      message: "Storms within 5 miles"
+      message: "Storms within 2 miles"
