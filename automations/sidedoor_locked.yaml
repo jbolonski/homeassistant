@@ -1,0 +1,9 @@
+alias: Side Door Unlocked
+trigger:
+  platform: state
+  entity_id: lock.schlage_be469nxcen_touchscreen_deadbolt_locked
+  to: 'unlocked'
+action:
+  service: notify.pushovernotification
+  data:
+    message: "Side Door Unlocked"
