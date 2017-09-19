@@ -4,4 +4,4 @@ trigger:
   at: '23:45'
 action:
   service: homeassistant.turn_off
-  entity_id: switch.window_light
+  entity_id: group.sunset_lights
