@@ -1,0 +1,4 @@
+sun_room:
+  name: Sun Room
+  entities:
+    - switch.sunroom_light
