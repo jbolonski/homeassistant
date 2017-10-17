@@ -1,8 +1,8 @@
 - name: Watch TV
   entities:
-    switch.leviton_dzpa11lw_plugin_appliance_module_switch:
+    switch.wemo_mini_96:    
       state: on
-    switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
+    switch.wemo_mini_280:
       state: off
     light.a19_w_60_01:
       state: on

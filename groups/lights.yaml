@@ -2,6 +2,6 @@ lights:
   name: Lights
   entities:
     - light.a19_w_60_01
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2
     - switch.window_light
+    - switch.wemo_mini_280
+    - switch.wemo_mini_96

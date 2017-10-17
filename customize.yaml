@@ -28,11 +28,11 @@ group.emma:
 #
 ###########################################
 
-switch.leviton_dzpa11lw_plugin_appliance_module_switch:
+switch.wemo_mini_280:
   friendly_name: Floor Lamp 1
   icon: mdi:lamp
 
-switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
+switch.wemo_mini_96:
   friendly_name: Floor Lamp 2
   icon: mdi:lamp
 
@@ -84,10 +84,10 @@ light.a19_w_60_01:
 ###########################################
 
 group.allys_room:
-  emulated_hue: true
+  emulated_hue_hidden: true
 
 group.emmas_room:
-  emulated_hue: true
+  emulated_hue_hidden: true
 
 group.tvroom_lights:
-  emulated_hue: true
+  emulated_hue_hidden: true

@@ -2,3 +2,4 @@ dawn_lights:
   name: Dawn Lights
   entities:
     - switch.window_light
+    - switch.sunroom_light
