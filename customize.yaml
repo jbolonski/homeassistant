@@ -84,10 +84,10 @@ light.a19_w_60_01:
 ###########################################
 
 group.allys_room:
-  emulated_hue_hidden: true
+  emulated_hue_hidden: false
 
 group.emmas_room:
-  emulated_hue_hidden: true
+  emulated_hue_hidden: false
 
 group.tvroom_lights:
-  emulated_hue_hidden: true
+  emulated_hue_hidden: false
