@@ -21,6 +21,7 @@ https://home-assistant.io/
 * OSRAM Lightify Light - Dimmable
 * LimitlessLED Lights - Dimmable, Color Temp, RGB
    * through LimitLessLED Wifi Bridge
+* Flux LED Light (Magic Home)
 
 ## Sensors
 

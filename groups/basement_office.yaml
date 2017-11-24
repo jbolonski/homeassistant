@@ -2,3 +2,4 @@ basement_office:
   name: Office
   entities:
     - switch.office_filter
+    - light.6001948867b2_1921681166

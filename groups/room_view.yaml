@@ -7,3 +7,4 @@ room_view:
     - group.tv_room
     - group.basement_office
     - group.sun_room
+    - group.garage

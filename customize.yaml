@@ -41,6 +41,10 @@ switch.office_light:
   friendly_name: Office Light
   icon: mdi:lamp
 
+switch.switch:
+  friendly_name: Garage Light
+  icon: mid:lamp
+
 ###########################################
 #
 # Weather
@@ -76,6 +80,8 @@ lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
 light.a19_w_60_01:
   friendly_name: TV Light
 
+light.6001948867b2_1921681166:
+  friendly_name: Office Light
 
 ###########################################
 #
