@@ -1,0 +1,4 @@
+garage:
+  name: Garage
+  entities:
+    - switch.wemo_mini_61
