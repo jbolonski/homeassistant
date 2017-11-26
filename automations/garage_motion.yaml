@@ -3,7 +3,10 @@ trigger:
   platform: state
   entity_id: binary_sensor.ecolink_pir_motion_sensor_sensor
   to: 'on'
+condition:
+  condition: state
+  entity_id: sun.sun
+  state: 'below_horizon'
 action:
-  service: notify.pushovernotification
-  data:
-    message: "Garage Motion Detected"
+  service: homeassistant.turn_on
+  entity_id: switch.wemo_mini_61

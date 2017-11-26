@@ -1,0 +1,10 @@
+alias: Garage Idle
+trigger:
+  platform: state
+  entity_id: binary_sensor.ecolink_pir_motion_sensor_sensor
+  to: 'off'
+  for:
+    minutes: 5
+action:
+  service: homeassistant.turn_off
+  entity_id: switch.wemo_mini_61

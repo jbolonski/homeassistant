@@ -2,3 +2,4 @@ automation_motion:
   name: Motion Automation
   entities:
     - automation.garage_motion
+    - automation.garage_idle
