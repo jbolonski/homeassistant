@@ -11,4 +11,5 @@ sensor_view:
     - sensor.dark_sky_temperature
     - sensor.dark_sky_wind_speed
     - binary_sensor.aeotec_dsb45_water_sensor_sensor
+    - binary_sensor.aeotec_dsb45_water_sensor_2_sensor
     - group.all_batteries

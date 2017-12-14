@@ -4,3 +4,4 @@ all_batteries:
     - sensor.bat_basementwater
     - sensor.bat_garagemotion
     - sensor.bat_sidedoorlock
+    - sensor.bat_treewater

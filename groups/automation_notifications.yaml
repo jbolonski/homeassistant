@@ -4,5 +4,6 @@ automation_notification:
     - automation.med_reminder
     - automation.hass_startup
     - automation.basement_flood
+    - automation.tree_water_check
     - automation.storm_detection
     - automation.side_door_unlocked

@@ -98,3 +98,22 @@ group.emmas_room:
 
 group.tvroom_lights:
   emulated_hue_hidden: false
+
+
+##########################################
+#
+# Sensors
+#
+##########################################
+zwave.aeotec_dsb45_water_sensor_2:
+  friendly_name: Tree Sensor
+
+zwave.aeotec_dsb45_water_sensor:
+  friendly_name: Basement Water Sensor
+
+
+binary_sensor.aeotec_dsb45_water_sensor_2_sensor:
+  friendly_name: Tree Sensor State
+
+binary_sensor.aeotec_dsb45_water_sensor_sensor:
+  friendly_name: Basement Water State
