@@ -43,6 +43,7 @@ https://home-assistant.io/
 ## Switched Outlets
 
 * Leviton DZPA1-1BW
+    * warning: These let low voltage through when off and can cause issues with things like LED lights.
 * TP-Link Wi-Fi Smart Plug HS100
 * Wemo Mini Smart Plug 
 
