@@ -5,3 +5,4 @@ automation_lights:
     - automation.dawn_lights_off
     - automation.sunset_lighting
     - automation.bedtime
+    - automation.christmas_auto_off

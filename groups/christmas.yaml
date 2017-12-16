@@ -1,0 +1,5 @@
+christmas:
+  name: Christmas
+  entities:
+    - switch.wemo_mini_9c0
+    - switch.wemo_mini_866

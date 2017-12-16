@@ -87,6 +87,8 @@ emulated_hue:
     - light
     - switch
     - lock
+    - group
+    - scene
 
 # Enable support for Google Home
 google_assistant:
