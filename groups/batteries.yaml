@@ -1,7 +1,7 @@
 all_batteries:
   name: All Batteries
   entities:
-    - sensor.bat_basementwater
+    - sensor.bat_sumpwater
     - sensor.bat_garagemotion
     - sensor.bat_sidedoorlock
-    - sensor.bat_treewater
+    - sensor.bat_basementwater

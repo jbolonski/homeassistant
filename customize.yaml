@@ -37,10 +37,10 @@ switch.wemo_mini_96:
   icon: mdi:lamp
 
 switch.wemo_mini_9c0:
-  friendly_name: Big Tree Lights
+  friendly_name: Switch 9c0
 
 switch.wemo_mini_866:
-  friendly_name: Small Tree Lights
+  friendly_name: Switch 866
 
 switch.office_light:
   friendly_name: Office Light
@@ -111,14 +111,14 @@ group.tvroom_lights:
 #
 ##########################################
 zwave.aeotec_dsb45_water_sensor_2:
-  friendly_name: Tree Sensor
+  friendly_name: Basement Sensor
 
 zwave.aeotec_dsb45_water_sensor:
-  friendly_name: Basement Water Sensor
+  friendly_name: Sump Water Sensor
 
 
 binary_sensor.aeotec_dsb45_water_sensor_2_sensor:
-  friendly_name: Tree Sensor State
+  friendly_name: Basement Sensor State
 
 binary_sensor.aeotec_dsb45_water_sensor_sensor:
-  friendly_name: Basement Water State
+  friendly_name: Sump Water State

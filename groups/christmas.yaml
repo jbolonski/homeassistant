@@ -1,6 +1,0 @@
-christmas:
-  name: Christmas
-  entities:
-    - switch.wemo_mini_9c0
-    - switch.wemo_mini_866
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch

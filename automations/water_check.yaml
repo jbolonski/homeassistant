@@ -1,11 +1,11 @@
-alias: Tree Water Check
+alias: Water Alert
 trigger:
   platform: state
   entity_id: binary_sensor.aeotec_dsb45_water_sensor_2_sensor
-  to: 'off'
+  to: 'on'
 action:
   - service: notify.pushovernotification
     data:
-      message: "Tree Water Low"
+      message: "Water Detected"
   - service: ifttt.trigger
-    data: {"event":"notify_x1", "value1":"Tree Water Low. Don't let it die."}
+    data: {"event":"notify_x1", "value1":"Water Detected in on sensor"}

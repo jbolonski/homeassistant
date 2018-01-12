@@ -1,12 +1,12 @@
 - platform: template
   sensors:
-    bat_basementwater:
-      friendly_name: 'Basement Water Sensor Battery'
+    bat_sumpwater:
+      friendly_name: 'Sump Water Sensor Battery'
       value_template: '{{ states.zwave.aeotec_dsb45_water_sensor.attributes.battery_level }}'
       unit_of_measurement: '%'
       entity_id: zwave.aeotec_dsb45_water_sensor
-    bat_treewater:
-      friendly_name: 'Christmas Tree Water Battery'
+    bat_basementwater:
+      friendly_name: 'Basement Water Battery'
       value_template: '{{ states.zwave.aeotec_dsb45_water_sensor_2.attributes.battery_level }}'
       unit_of_measurement: '%'
       entity_id: zwave.aeotec_dsb45_water_sensor_2
