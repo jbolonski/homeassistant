@@ -8,3 +8,4 @@ default_view:
     - group.weather
     - sensor.garage_temperature
     - lock.schlage_be469nxcen_touchscreen_deadbolt_locked
+    - script.1517588789968

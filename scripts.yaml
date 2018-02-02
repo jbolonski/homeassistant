@@ -1,0 +1,9 @@
+'1517588789968':
+  alias: Turn Off Emma's Light
+  sequence:
+  - data:
+      entity_id: light.emmas_light
+    service: light.turn_on
+  - data:
+      entity_id: light.emmas_light
+    service: light.turn_off
