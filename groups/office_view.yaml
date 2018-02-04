@@ -1,0 +1,6 @@
+office_view:
+  name: Office View
+  view: yes
+  entities:
+    - group.game_lights
+    - switch.office_filter

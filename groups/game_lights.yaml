@@ -1,6 +1,5 @@
-basement_office:
-  name: Office
+game_lights:
+  name: Game Lights
   entities:
-    - switch.office_filter
     - light.6001948867b2_1921681166
     - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2

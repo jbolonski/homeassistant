@@ -46,9 +46,13 @@ switch.office_light:
   friendly_name: Office Light
   icon: mdi:lamp
 
+switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
+  friendly_name: Office Backlight
+  icon: mdi:lamp
+
 switch.wemo_mini_61:
   friendly_name: Garage Light
-  icon: mid:lamp
+  icon: mdi:lamp
 
 
 ###########################################
