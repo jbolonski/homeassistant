@@ -1,5 +1,5 @@
 kids_room_lights:
   name: Kids Room Lights
   entities:
-    - light.allys_light
+    - light.kadens_light
     - light.emmas_light

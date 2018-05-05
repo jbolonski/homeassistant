@@ -1,0 +1,4 @@
+kadens_room:
+  name: Kaden's Room
+  entities:
+    - light.kadens_light

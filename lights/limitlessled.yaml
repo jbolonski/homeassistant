@@ -4,7 +4,16 @@ bridges:
     groups:
     - number: 1
       type: rgbww
-      name: Ally's Light
+      name: Kaden's Light
     - number: 2
       name: Emma's Light
       type: rgbww
+#  - host: 192.168.1.144
+##    bridge-led: True
+#    version: 6
+#    port: 5987
+#    groups:
+#    - number: 1
+#      type: bridge-led
+#      name: Office Ambient Light
+

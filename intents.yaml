@@ -4,7 +4,7 @@ WhereAreWeIntent:
     text: >
         Jason is {% if is_state('group.jason', 'not_home') %}away{% else %}at home{% endif %}.
         Jill is {% if is_state('group.jill', 'not_home') %}away{% else %}at home{% endif %}.
-        Allyson is {% if is_state('group.ally', 'not_home') %}away{% else %}at home{% endif %}.
+        Kaden is {% if is_state('group.kaden', 'not_home') %}away{% else %}at home{% endif %}.
         Emma is {% if is_state('group.emma', 'not_home') %}away{% else %}at home{% endif %}.
 
 LocateIntent:

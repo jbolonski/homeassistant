@@ -1,128 +1,57 @@
-###########################################
-#
-# Devices
-#
-###########################################
-
 group.jason:
   friendly_name: Jason
   icon: mdi:human-male
-
-
-group.ally:
-  friendly_name: Ally
-  icon: mdi:human-female
-
+group.kaden:
+  friendly_name: Kaden
+  icon: mdi:human-male
 group.jill:
   friendly_name: Jill
   icon: mdi:human-female
-
 group.emma:
   friendly_name: Emma
   icon: mdi:human-female
-
-
-###########################################
-#
-# Switches
-#
-###########################################
-
 switch.wemo_mini_280:
   friendly_name: Floor Lamp 1
   icon: mdi:lamp
-
 switch.wemo_mini_96:
   friendly_name: Floor Lamp 2
   icon: mdi:lamp
-
 switch.wemo_mini_9c0:
-  friendly_name: Switch 9c0
-
+  friendly_name: Office Game Lights
 switch.wemo_mini_866:
   friendly_name: Switch 866
-
 switch.office_light:
   friendly_name: Office Light
   icon: mdi:lamp
-
 switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
   friendly_name: Office Backlight
   icon: mdi:lamp
-
 switch.wemo_mini_61:
   friendly_name: Garage Light
   icon: mdi:lamp
-
-
-###########################################
-#
-# Weather
-#
-###########################################
-
 sensor.dark_sky_temperature:
   friendly_name: Temperature
-
 sensor.dark_sky_wind_speed:
   friendly_name: Wind Speed
-
 sensor.dark_sky_cloud_coverage:
   friendly_name: Clouds
-
-
-###########################################
-#
-# Locks
-#
-###########################################
-
 lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
   friendly_name: Side Door Lock
-
-
-###########################################
-#
-# Lights
-#
-###########################################
-
 light.a19_w_60_01:
   friendly_name: TV Light
-
 light.6001948867b2_1921681166:
   friendly_name: Office Light
-
-###########################################
-#
-# Groups
-#
-###########################################
-
 group.allys_room:
   emulated_hue_hidden: false
-
 group.emmas_room:
   emulated_hue_hidden: false
-
 group.tvroom_lights:
   emulated_hue_hidden: false
-
-
-##########################################
-#
-# Sensors
-#
-##########################################
 zwave.aeotec_dsb45_water_sensor_2:
   friendly_name: Basement Sensor
-
 zwave.aeotec_dsb45_water_sensor:
   friendly_name: Sump Water Sensor
-
-
 binary_sensor.aeotec_dsb45_water_sensor_2_sensor:
   friendly_name: Basement Sensor State
-
 binary_sensor.aeotec_dsb45_water_sensor_sensor:
   friendly_name: Sump Water State

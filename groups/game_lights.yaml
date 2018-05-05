@@ -2,4 +2,5 @@ game_lights:
   name: Game Lights
   entities:
     - light.6001948867b2_1921681166
-    - switch.leviton_dzpa11lw_plugin_appliance_module_switch_2
+    - switch.wemo_mini_9c0
+    - light.office_ambient_light
