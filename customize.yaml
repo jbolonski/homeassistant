@@ -19,7 +19,7 @@ switch.wemo_mini_96:
 switch.wemo_mini_9c0:
   friendly_name: Office Game Lights
 switch.wemo_mini_866:
-  friendly_name: Switch 866
+  friendly_name: Office Desk Backlight
 switch.office_light:
   friendly_name: Office Light
   icon: mdi:lamp
