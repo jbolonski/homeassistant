@@ -1,6 +1,7 @@
 room_view:
   name: Rooms
   view: yes
+  icon: mdi:home-map-marker
   entities:
     - group.kadens_room
     - group.emmas_room

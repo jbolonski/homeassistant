@@ -1,5 +1,5 @@
-office_view:
-  name: Office View
+office:
+  name: Office
   view: yes
   entities:
     - group.game_lights

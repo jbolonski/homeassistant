@@ -1,5 +1,6 @@
 scene_view:
   name: Scenes
+  icon: mdi:filmstrip
   view: yes
   entities:
     - scene.watch_movie

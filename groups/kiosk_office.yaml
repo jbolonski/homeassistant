@@ -1,0 +1,7 @@
+kiosk_office:
+  name: Office Kiosk
+  view: yes
+  icon: mdi:radar
+  entities:
+    - camera.weather_camera
+    - group.weather
