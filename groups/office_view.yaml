@@ -4,3 +4,4 @@ office:
   entities:
     - group.game_lights
     - switch.office_filter
+    - switch.office_heater
