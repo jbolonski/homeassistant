@@ -11,3 +11,4 @@ emulated_hue_ids.json
 .HA_VERSION
 deps/
 icloud/
+.storage/
