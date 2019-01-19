@@ -17,7 +17,7 @@ switch.wemo_mini_96:
   friendly_name: Floor Lamp 2
   icon: mdi:lamp
 switch.wemo_mini_9c0:
-  friendly_name: Office Game Lights
+  friendly_name: Office Floor Lights
 switch.wemo_mini_866:
   friendly_name: Office Desk Backlight
 switch.office_light:
@@ -39,8 +39,8 @@ lock.schlage_be469nxcen_touchscreen_deadbolt_locked:
   friendly_name: Side Door Lock
 light.a19_w_60_01:
   friendly_name: TV Light
-light.6001948867b2_1921681166:
-  friendly_name: Office Light
+light.6001948867b2_192_168_1_166:
+  friendly_name: Office Monitor Light
 group.allys_room:
   emulated_hue_hidden: false
 group.emmas_room:
