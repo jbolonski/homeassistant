@@ -1,4 +1,4 @@
 emmas_room:
   name: Emma's Room
   entities:
-    - light.emmas_light
+    - light.emma_s_light

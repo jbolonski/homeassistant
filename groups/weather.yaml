@@ -1,5 +1,6 @@
 weather:
   name: Weather
+  control: hidden
   entities:
     - sun.sun
     - sensor.dark_sky_temperature

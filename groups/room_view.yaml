@@ -6,6 +6,6 @@ room_view:
     - group.kadens_room
     - group.emmas_room
     - group.tv_room
-    - group.basement_office
+#    - group.office
     - group.sun_room
     - group.garage
