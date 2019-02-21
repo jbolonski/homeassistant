@@ -5,3 +5,4 @@ game_lights:
     - switch.wemo_mini_9c0
     - light.office_ambient_light
     - switch.wemo_mini_866
+    - light.main_office_lamp

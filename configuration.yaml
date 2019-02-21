@@ -122,6 +122,8 @@ light: !include_dir_list lights
 script: !include scripts.yaml
 ###########################
 
+ffmpeg:
+  ffmpeg_bin: /usr/bin/ffmpeg
 
 
 zwave:

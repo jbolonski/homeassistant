@@ -2,8 +2,8 @@
   alias: Turn Off Emma's Light
   sequence:
   - data:
-      entity_id: light.emmas_light
+      entity_id: light.emma_s_light
     service: light.turn_on
   - data:
-      entity_id: light.emmas_light
+      entity_id: light.emma_s_light
     service: light.turn_off
