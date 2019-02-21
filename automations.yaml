@@ -1,0 +1,12 @@
+- id: '1550763258027'
+  alias: Gaming Computer Turn On
+  trigger:
+  - entity_id: binary_sensor.ping_gaming_computer
+    from: 'Off'
+    platform: state
+    to: 'On'
+  condition: []
+  action:
+  - data:
+      entity_id: group.game_lights
+    service: light.turn_on

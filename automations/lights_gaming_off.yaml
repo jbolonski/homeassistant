@@ -1,0 +1,8 @@
+alias: Gaming Computer Turn Off
+trigger:
+  entity_id: binary_sensor.ping_gaming_computer
+  platform: state
+  to: 'off'
+action:
+  entity_id: group.game_lights
+  service: homeassistant.turn_off

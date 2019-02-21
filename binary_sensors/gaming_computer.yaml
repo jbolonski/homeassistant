@@ -1,0 +1,4 @@
+- platform: ping
+  name: ping_gaming_computer
+  host: desktop-powersp
+  scan_interval: 5

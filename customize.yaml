@@ -55,3 +55,6 @@ binary_sensor.aeotec_dsb45_water_sensor_2_sensor:
   friendly_name: Basement Sensor State
 binary_sensor.aeotec_dsb45_water_sensor_sensor:
   friendly_name: Sump Water State
+binary_sensor.ping_gaming_computer:
+  friendly_name: Gaming Computer
+  icon: mdi:desktop-tower-monitor  
