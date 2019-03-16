@@ -5,3 +5,4 @@ office_view:
     - group.game_lights
     - switch.office_filter
     - switch.office_heater
+    - switch.office_vent_fan

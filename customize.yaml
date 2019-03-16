@@ -29,6 +29,11 @@ switch.leviton_dzpa11lw_plugin_appliance_module_switch_2:
 switch.wemo_mini_61:
   friendly_name: Garage Light
   icon: mdi:lamp
+switch.office_vent_fan:
+  friendly_name: Office Vent Fan
+  icon: mdi:fan
+switch.office_heater:
+  icon: mdi:radiator
 sensor.dark_sky_temperature:
   friendly_name: Temperature
 sensor.dark_sky_wind_speed:
