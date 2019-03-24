@@ -1,0 +1,5 @@
+hue_play_1_lights:
+  name: Monitor Lights
+  entities:
+    - light.hue_play_1
+    - light.hue_play_1_2
