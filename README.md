@@ -22,6 +22,9 @@ https://home-assistant.io/
 * LimitlessLED Lights - Dimmable, Color Temp, RGB
    * through LimitLessLED Wifi Bridge
 * Flux LED Light (Magic Home)
+* Hue Lights & Bridge
+   * Light Bulb
+   * Hue Play Lights
 
 ## Sensors
 
