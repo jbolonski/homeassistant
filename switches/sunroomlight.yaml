@@ -1,4 +1,0 @@
-platform: tplink
-host: !secret ip_tplink_2
-name: Sunroom Light
-icon: mdi:lamp

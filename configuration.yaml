@@ -55,11 +55,7 @@ recorder:
 # Track the sun
 sun:
 
-
-# Text to speech
-tts:
-  platform: google
-
+system_health:
 
 # Climate Controls
 #climate:
@@ -105,6 +101,12 @@ ifttt:
 alexa:
 
 wemo:
+
+tplink:
+  discovery: false
+  switch:
+    - host: !secret ip_tplink_1
+    - host: !secret ip_tplink_2
 
 #########################
 # INCLUDES

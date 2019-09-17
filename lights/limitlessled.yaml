@@ -9,7 +9,6 @@ bridges:
       name: Emma's Light
       type: rgbww
   - host: !secret ip_limitlessled_2
-    bridge-led: True
     version: 6
     port: 5987
     groups:

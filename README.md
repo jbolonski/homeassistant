@@ -13,8 +13,9 @@ https://home-assistant.io/
 
 ## Device Tracking
 
-* DD-WRT
-* Owntracks
+# Removed due to unreliability
+# * DD-WRT
+# * Owntracks
 
 ## Lights
 
@@ -41,7 +42,7 @@ https://home-assistant.io/
 
 ## Binary Sensors
 
-* Octoprint
+* Octoprint - currently disabled
 
 ## Switched Outlets
 
@@ -55,7 +56,7 @@ https://home-assistant.io/
 
 ## Cameras
 
-* Octoprint mjpeg streamer
+* Octoprint mjpeg streamer - enabled but not displayed in the UI
 
 ## Locks
 

@@ -3,7 +3,6 @@ default_view:
   view: yes
   entities:
     - group.lights
-    - group.climate
     - group.tvroom_floor_lights
     - group.weather
     - sensor.garage_temperature
