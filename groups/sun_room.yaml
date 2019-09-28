@@ -1,4 +1,4 @@
 sun_room:
   name: Sun Room
   entities:
-    - switch.sunroom_light
+    - switch.tp_link_smart_plug_a753

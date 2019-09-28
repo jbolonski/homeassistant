@@ -2,21 +2,21 @@
   sensors:
     bat_sumpwater:
       friendly_name: 'Sump Water Sensor Battery'
-      value_template: '{{ states.zwave.aeotec_dsb45_water_sensor.attributes.battery_level }}'
+      value_template: "{{ state_attr('zwave.aeotec_dsb45_water_sensor','battery_level') }}"
       unit_of_measurement: '%'
       entity_id: zwave.aeotec_dsb45_water_sensor
     bat_basementwater:
       friendly_name: 'Basement Water Battery'
-      value_template: '{{ states.zwave.aeotec_dsb45_water_sensor_2.attributes.battery_level }}'
+      value_template: "{{ state_attr('zwave.aeotec_dsb45_water_sensor_2','battery_level') }}"
       unit_of_measurement: '%'
       entity_id: zwave.aeotec_dsb45_water_sensor_2
     bat_garagemotion:
       friendly_name: 'Garage Motion Sensor Battery'
-      value_template: '{{ states.zwave.ecolink_pir_motion_sensor.attributes.battery_level }}'
+      value_template: "{{ state_attr('zwave.ecolink_pir_motion_sensor','battery_level') }}"
       unit_of_measurement: '%'
       entity_id: zwave.ecolink_pir_motion_sensor
     bat_sidedoorlock:
       friendly_name: 'Side Door Lock Battery'
-      value_template: '{{ states.zwave.schlage_be469nxcen_touchscreen_deadbolt.attributes.battery_level }}'
+      value_template: "{{ state_attr('zwave.schlage_be469nxcen_touchscreen_deadbolt','battery_level') }}"
       unit_of_measurement: '%'
       entity_id: zwave.schlage_be469nxcen_touchscreen_deadbolt

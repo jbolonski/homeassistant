@@ -81,19 +81,7 @@ emulated_hue:
   exposed_domains:
     - light
     - switch
-    - lock
-    - group
-    - scene
-
-# Enable support for Google Home
-google_assistant:
-  project_id: !secret google_project_id
-  api_key: !secret google_api_key
-  exposed_domains:
-    - switch
-    - light
-    - group
-    - scene
+#    - group
 
 ifttt:
   key: !secret ifttt_key
@@ -101,6 +89,12 @@ ifttt:
 alexa:
 
 wemo:
+  discovery: true
+  static:
+    - !secret ip_wemo_1
+    - !secret ip_wemo_2
+    - !secret ip_wemo_3
+    - !secret ip_wemo_4
 
 tplink:
   discovery: false

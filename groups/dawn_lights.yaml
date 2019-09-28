@@ -2,4 +2,4 @@ dawn_lights:
   name: Dawn Lights
   entities:
     - switch.window_light
-    - switch.sunroom_light
+    - switch.tp_link_smart_plug_a753
