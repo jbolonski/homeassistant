@@ -2,5 +2,3 @@ tvroom_lights:
   name: TV Room Lights
   entities:
     - light.a19_w_60_01
-    - switch.wemo_mini_280
-    - switch.wemo_mini_96

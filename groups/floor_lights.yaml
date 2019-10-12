@@ -1,5 +1,5 @@
 tvroom_floor_lights:
   name: TV Room Floor Lights
   entities:
-    - switch.wemo_mini_280
-    - switch.wemo_mini_96
+    - light.hue_white_lamp_1_2
+    - light.hue_white_lamp_1_3

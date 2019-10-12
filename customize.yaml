@@ -10,12 +10,6 @@ group.jill:
 group.emma:
   friendly_name: Emma
   icon: mdi:human-female
-switch.wemo_mini_280:
-  friendly_name: Floor Lamp 1
-  icon: mdi:lamp
-switch.wemo_mini_96:
-  friendly_name: Floor Lamp 2
-  icon: mdi:lamp
 switch.tp_link_smart_plug_a753:
   friendly_name: Sun Room Light
   icon: mdi:lamp
