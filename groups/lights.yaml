@@ -5,3 +5,4 @@ lights:
     - switch.window_light
     - light.hue_white_lamp_1_2
     - light.hue_white_lamp_1_3
+    - light.bedroom

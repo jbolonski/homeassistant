@@ -90,11 +90,6 @@ alexa:
 
 wemo:
   discovery: true
-  static:
-    - !secret ip_wemo_1
-    - !secret ip_wemo_2
-    - !secret ip_wemo_3
-    - !secret ip_wemo_4
 
 tplink:
   discovery: false
