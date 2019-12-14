@@ -19,7 +19,6 @@ https://home-assistant.io/
 
 ## Lights
 
-* OSRAM Lightify Light - Dimmable
 * LimitlessLED Lights - Dimmable, Color Temp, RGB
    * through LimitLessLED Wifi Bridge
 * Flux LED Light (Magic Home)
@@ -64,3 +63,6 @@ https://home-assistant.io/
 	* If this stops working the zwcfg_###.xml might have gotten messed up.
 	* If the lock works from ozwcp but not hass then compare the diff between the zwcfg_###.xml from the ozwcp directory and the file from the hass .home directory
 
+## Removed Devices
+
+* OSRAM Lightify Light - Dimmable (replaced by Hue bulb)

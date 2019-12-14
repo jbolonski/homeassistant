@@ -1,8 +1,8 @@
 lights:
   name: Lights
   entities:
-    - light.a19_w_60_01
     - switch.window_light
     - light.hue_white_lamp_1_2
     - light.hue_white_lamp_1_3
+    - light.hue_white_lamp_1_4
     - light.bedroom

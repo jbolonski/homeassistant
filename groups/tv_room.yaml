@@ -1,7 +1,7 @@
 tv_room:
   name: TV Room
   entities:
-    - light.a19_w_60_01
+    - light.hue_white_lamp_1_4
     - light.hue_white_lamp_1_2
     - light.hue_white_lamp_1_3
     - switch.fireplace_power

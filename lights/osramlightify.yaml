@@ -1,2 +1,0 @@
-platform: osramlightify
-host: !secret ip_osram
