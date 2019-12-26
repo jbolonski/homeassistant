@@ -1,0 +1,14 @@
+alias: Basement Idle
+trigger:
+  platform: state
+  entity_id: binary_sensor.ecolink_unknown_type_0004_id_0001_sensor_2
+  to: 'off'
+  for:
+    minutes: 25
+condition:
+  condition: state
+  entity_id: light.main_office_lamp
+  state: 'off'
+action:
+  service: homeassistant.turn_off
+  entity_id: switch.wemo_mini_280
