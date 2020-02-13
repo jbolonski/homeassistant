@@ -6,3 +6,4 @@ lights:
     - light.hue_white_lamp_1_3
     - light.hue_white_lamp_1_4
     - light.bedroom
+    - switch.wemo_mini_280

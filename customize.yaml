@@ -17,6 +17,9 @@ switch.wemo_mini_9c0:
   friendly_name: Office Floor Lights
 switch.wemo_mini_866:
   friendly_name: Office Desk Backlight
+switch.wemo_mini_280:
+  friendly_name: Basement Light
+  icon: mdi:floor-lamp
 switch.office_light:
   friendly_name: Office Light
   icon: mdi:lamp
@@ -52,3 +55,5 @@ binary_sensor.aeotec_dsb45_water_sensor_sensor:
 binary_sensor.ping_gaming_computer:
   friendly_name: Gaming Computer
   icon: mdi:desktop-tower-monitor  
+binary_sensor.ecolink_unknown_type_0004_id_0001_sensor_2:
+  friendly_name: Basement Motion Sensor

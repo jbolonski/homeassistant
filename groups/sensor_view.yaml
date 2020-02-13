@@ -4,6 +4,7 @@ sensor_view:
   view: yes
   entities:
     - binary_sensor.ecolink_pir_motion_sensor_sensor
+    - binary_sensor.ecolink_unknown_type_0004_id_0001_sensor_2
     - sun.sun
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_cloud_coverage

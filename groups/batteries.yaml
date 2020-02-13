@@ -3,5 +3,6 @@ all_batteries:
   entities:
     - sensor.bat_sumpwater
     - sensor.bat_garagemotion
+    - sensor.bat_basementmotion
     - sensor.bat_sidedoorlock
     - sensor.bat_basementwater

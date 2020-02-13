@@ -15,6 +15,11 @@
       value_template: "{{ state_attr('zwave.ecolink_pir_motion_sensor','battery_level') }}"
       unit_of_measurement: '%'
       entity_id: zwave.ecolink_pir_motion_sensor
+    bat_basementmotion:
+      friendly_name: 'Basement Motion Sensor Battery'
+      value_template: "{{ state_attr('zwave.ecolink_unknown_type_0004_id_0001_2','battery_level') }}"
+      unit_of_measurement: '%'
+      entity_id: zwave.ecolink_unknown_type_0004_id_0001_2
     bat_sidedoorlock:
       friendly_name: 'Side Door Lock Battery'
       value_template: "{{ state_attr('zwave.schlage_be469nxcen_touchscreen_deadbolt','battery_level') }}"
