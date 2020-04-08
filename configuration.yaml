@@ -12,6 +12,8 @@ http:
   ssl_certificate: !secret http_ssl_cert
   ssl_key: !secret http_ssl_key
 
+api:
+
 mqtt:
   broker: !secret ip_mqtt
   port: 1883
