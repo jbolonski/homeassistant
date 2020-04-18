@@ -1,0 +1,8 @@
+alias: Gaming Heater Off
+trigger:
+  entity_id: binary_sensor.ping_gaming_computer
+  platform: state
+  to: 'off'
+action:
+  entity_id: switch.office_heater
+  service: homeassistant.turn_off
