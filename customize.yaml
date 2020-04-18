@@ -15,8 +15,13 @@ switch.tp_link_smart_plug_a753:
   icon: mdi:lamp
 switch.wemo_mini_9c0:
   friendly_name: Office Floor Lights
+  icon: mdi:track-light
 switch.wemo_mini_866:
   friendly_name: Office Desk Backlight
+  icon: mdi:led-strip
+switch.wemo_mini_96:
+  friendly_name: Stream Light
+  icon: mdi:lamp
 switch.wemo_mini_280:
   friendly_name: Basement Light
   icon: mdi:floor-lamp
