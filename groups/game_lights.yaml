@@ -3,7 +3,6 @@ game_lights:
   entities:
     - light.6001948867b2_192_168_1_166
     - switch.wemo_mini_9c0
-    - switch.wemo_mini_96
     - switch.wemo_mini_866
     - light.main_office_lamp
     - light.hue_play_1
